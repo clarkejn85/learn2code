@@ -35,4 +35,14 @@ describe("addToThings", ()=> {
         expect(result).toEqual([1, 2, 3]);
     })
 
+
+    test("it should ignore the value 'foo' ", ()=>{
+        const things = [];
+
+        // hint if(thing == 'foo') { don't add it... }
+        var result = homework.addToThings(things, "foo");
+
+        expect(result).toEqual([]);
+    })
+
 })
