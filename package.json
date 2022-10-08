@@ -1,0 +1,22 @@
+{
+  "name": "learn2code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkejn85/learn2code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkejn85/learn2code/issues"
+  },
+  "homepage": "https://github.com/clarkejn85/learn2code#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
